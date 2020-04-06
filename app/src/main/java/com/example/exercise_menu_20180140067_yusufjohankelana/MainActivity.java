@@ -1,5 +1,6 @@
 package com.example.exercise_menu_20180140067_yusufjohankelana;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -10,7 +11,7 @@ import android.widget.Toast;
 public class MainActivity extends AppCompatActivity {
 
     EditText Username, Password;
-    Button Submit;
+    private Button Submit;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,8 +26,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 if (Username.getText().toString().equals("admin") && Password.getText().toString().equals("123")) {
-                    Toast.makeText(getApplicationContext(),"Login Success",
-                            Toast.LENGTH_LONG).show();
+                    bukaHalamanKeduaActivity();
                 } else  {
                     Toast.makeText(getApplicationContext(),"Password Salah",
                             Toast.LENGTH_LONG).show();
@@ -34,5 +34,10 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+    }
+
+    public void bukaHalamanKeduaActivity() {
+        Intent intent = new Intent(this, HalamanKeduaActivity.class);
+        startActivity(intent);
     }
 }

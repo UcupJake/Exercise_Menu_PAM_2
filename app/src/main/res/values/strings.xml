@@ -15,4 +15,15 @@
     <string name="masukkan_nama">Masukkan Nama</string>
     <string name="alamat">Alamat</string>
     <string name="masukkan_alamat">Masukkan Alamat</string>
+    <string name="menu_hitung_bangun_datar">Menu Hitung Bangun Datar</string>
+    <string name="luas_persegi">Luas Persegi</string>
+    <string name="keliling_persegi">Keliling Persegi</string>
+    <string name="luas_lingkaran">Luas Lingkaran</string>
+    <string name="keliling_lingkaran">Keliling Lingkaran</string>
+    <string name="luas_persegi_panjang">Luas Persegi Panjang</string>
+    <string name="keliling_persegi_panjang">Keliling Persegi Panjang</string>
+    <string name="luas_segitiga">Luas segitiga</string>
+    <string name="keliling_segitiga">Keliling Segitiga</string>
+    <string name="luas_trapesium">Luas Trapesium</string>
+    <string name="keliling_trapesium">Keliling Trapesium</string>
 </resources>

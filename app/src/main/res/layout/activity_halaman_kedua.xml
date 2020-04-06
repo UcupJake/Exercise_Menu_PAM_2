@@ -4,6 +4,109 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/btn"
     tools:context=".HalamanKeduaActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" >
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="15dp"
+            android:text="@string/menu_hitung_bangun_datar"
+            android:textAlignment="center"
+            android:textColor="@color/judul"
+            android:textSize="27sp"
+            android:textStyle="bold"
+            android:layout_marginLeft="80dp"
+            android:gravity="center_horizontal" >
+        </TextView>
+
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/persegi"
+                    android:layout_width="145dp"
+                    android:layout_height="129dp"
+                    app:srcCompat="@drawable/per"/>
+
+                <ImageView
+                    android:id="@+id/lingkaran"
+                    android:layout_width="136dp"
+                    android:layout_height="127dp"
+                    android:layout_marginLeft="10dp"
+                    app:srcCompat="@drawable/ling" />
+
+            </TableRow>
+
+        </TableLayout>
+
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/persegi_panjang"
+                    android:layout_width="153dp"
+                    android:layout_height="190dp"
+                    app:srcCompat="@drawable/perpan" />
+
+                <ImageView
+                    android:id="@+id/segitiga"
+                    android:layout_width="153dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/seg" />
+
+            </TableRow>
+
+        </TableLayout>
+
+        <ImageView
+            android:id="@+id/trapesium"
+            android:layout_width="328dp"
+            android:layout_height="145dp"
+            android:layout_marginLeft="30dp"
+            app:srcCompat="@drawable/trap" />
+
+
+        <ImageView
+            android:id="@+id/shutdown"
+            android:layout_width="91dp"
+            android:layout_height="94dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginLeft="250dp"
+            android:background="@color/colorAccent"
+            app:srcCompat="@android:drawable/ic_lock_power_off" />
+
+
+    </LinearLayout>
 
 </android.support.constraint.ConstraintLayout>
