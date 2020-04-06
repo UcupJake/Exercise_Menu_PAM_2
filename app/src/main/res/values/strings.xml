@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Exercise Menu 18 A</string>
+    <string name="labelapp">LOGIN USER</string>
+    <string name="un">Username</string>
+    <string name="ps">Password</string>
+    <string name="btn">Sign-In</string>
+    <string name="tl">No. Telepon</string>
+    <string name="tampilan_hasil_menu_2">Tampilan hasil menu 2</string>
+    <string name="tampilan_hasil_menu_3">Tampilan hasil menu 3</string>
+    <string name="masukkan_notel">Masukkan No. Telepon</string>
+    <string name="hsl">Ini tampilan Hasil</string>
+    <string name="masukkan_password">Masukkan Passwaord</string>
+    <string name="masukkan_username">Masukkan Username</string>
+    <string name="nama">Nama</string>
+    <string name="masukkan_nama">Masukkan Nama</string>
+    <string name="alamat">Alamat</string>
+    <string name="masukkan_alamat">Masukkan Alamat</string>
+</resources>
